@@ -20,7 +20,6 @@ session = AntronioSession(username, password)
 Después de crear la instancia, se puede hacer solicitudes al foro con el método session.session.get(url) o session.session.post(url, data):
 
 ```python
-Copy code
 url = "https://www.antronio.cl/foro/"
 
 response = session.session.get(url)
